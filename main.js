@@ -30,8 +30,8 @@ var last_position_of_x, last_position_of_y;
     {
         console.log("my_touchmove");
 
-         current_position_of_mouse_x = e.touches[0].clientX - canvas.offsetLeft;
-         current_position_of_mouse_y = e.touches[0].clientY - canvas.offsetTop;
+         current_position_of_touch_x = e.touches[0].clientX - canvas.offsetLeft;
+         current_position_of_touch_y = e.touches[0].clientY - canvas.offsetTop;
 
        
         ctx.beginPath();
